@@ -1,3 +1,12 @@
+@font-face {
+  font-family: shahin;
+  src:url('./assets/fonts/vazir/fonts/ttf/Vazirmatn-Bold.ttf');
+
+}
+body{
+  font-family:shahin;
+}
+
 .App {
   text-align: center;
 }

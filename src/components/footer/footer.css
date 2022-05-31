@@ -1,0 +1,11 @@
+.footer{
+  height: 20vh;
+  width: 100%;
+  background-color: #E9967A;
+  display: flex;
+  align-items: center;
+ 
+}
+button{
+  margin-right: 10px !important;
+}
