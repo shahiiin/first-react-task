@@ -1,0 +1,18 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C0C0C0;
+  height: 100vh;
+}
+
+.login-card {
+  width: 350px;
+  height: 370px;
+  border-radius: 10px !important;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  margin-top: 25px;
+}

@@ -1,3 +1,4 @@
+
 import { Col, Container, Row } from 'react-bootstrap'
 import './profile-bar.css'
 
@@ -6,13 +7,15 @@ const ProfileBar = () => {
     <Container>
       <Row>
         <Col>
-        <span>Fast to find subject</span>
+          <input className='search-bar'
+            placeholder='search.....'
+            type='text' />
         </Col>
         <Col>
-        <input className='search-bar' placeholder='search.....' type='text'/>
+          <button className='btn btn-primary'>Login</button>
+          <button className='btn btn-secondary'>Register</button>
         </Col>
       </Row>
-    
     </Container>
   )
 }
