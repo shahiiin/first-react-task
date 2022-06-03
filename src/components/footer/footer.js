@@ -2,15 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FiTwitter } from 'react-icons/fi'
 import { TbBrandTelegram } from 'react-icons/tb'
-import {
-  BrowserRouter as
-    Router,
-  Route,
-  Routes,
 
-} from "react-router-dom";
-import Home from './../login/Home'
-import Register from './../register/Register'
 import './footer.css'
 
 
@@ -37,12 +29,6 @@ const Footer = () => {
             <span><FiTwitter /></span>
             <span><TbBrandTelegram /></span>
           
-            <Router>
-        <Routes>
-          <Route path='/register' element={<Register />} />
-          <Route path='/home' element={<Home />} />
-        </Routes>
-      </Router>
           </Col>
         </Row>
       </Container>
