@@ -28,7 +28,7 @@ const Footer = () => {
             <span><AiOutlineInstagram /></span>
             <span><FiTwitter /></span>
             <span><TbBrandTelegram /></span>
-          
+            <span><FiTwitter /></span>
           </Col>
         </Row>
       </Container>
