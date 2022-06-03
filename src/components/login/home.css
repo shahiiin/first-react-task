@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #C0C0C0;
   height: 100vh;
+  background-image: url('./../../assets/images/web-design-best-practices.jpg');
 }
 
 .login-card {

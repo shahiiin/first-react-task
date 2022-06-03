@@ -1,10 +1,11 @@
-@font-face {
-  font-family: shahin;
-  src:url('./assets/fonts/vazir/fonts/ttf/Vazirmatn-Regular.ttf');
 
+@font-face {
+  font-family: 'shahin';
+  src: url('./assets/fonts/vazir/Roboto-Light.ttf');
+ 
 }
-body{
+*{
   font-family:shahin;
-}
+ }
 
 
