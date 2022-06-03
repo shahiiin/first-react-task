@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Route,Switch,Link } from "react-router-dom";
 import { Col, Container, Row } from 'react-bootstrap'
 import './profile-bar.css'
 
@@ -11,10 +11,7 @@ const ProfileBar = () => {
             placeholder='search.....'
             type='text' />
         </Col>
-        <Col>
-          <button className='btn btn-primary'>Login</button>
-          <button className='btn btn-secondary'>Register</button>
-        </Col>
+     
       </Row>
     </Container>
   )
